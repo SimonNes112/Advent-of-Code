@@ -2,7 +2,7 @@ namespace :day_1 do
     desc "day 1"
     task go: :environment do
         #Part 1
-        number = open("app/data/day_1.txt").read
+        number = open("data/day_1.txt").read
         #spliting the number 
         elfs = number.split("\n\n")
         result = elfs.map do |elf|

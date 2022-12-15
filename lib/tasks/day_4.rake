@@ -4,13 +4,10 @@ namespace :day_4 do
         #Part 1
         #setting the total to 0
         total_overlap = 0
-        File.open("app/data/day_4.txt").each do |line|
+        File.open("data/day_4.txt").each do |line|
             tasks = line.split(",")
-            
             #spliting the tasks at "-"
             #making the first part and the second part a integer
-
-            #
             first_part = tasks.first.split("-").map(&:to_i)
             second_part = tasks.last.split("-").map(&:to_i)
             # making a range of the first part
