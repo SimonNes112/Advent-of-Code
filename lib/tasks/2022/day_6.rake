@@ -7,7 +7,7 @@ namespace :day_6 do
         right_postion = 0
         current = ""
         #reading the file
-        basis = open("data/day_6.txt").read
+        basis = open("data/2022/day_6.txt").read
         #while the right postion is less than the length of the basis
         while right_postion < basis.length - 1 do 
             #if the current length is equal to 4

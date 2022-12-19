@@ -1,7 +1,7 @@
 namespace :day_2 do
     desc "day_2"
     task go: :environment do 
-        number = open("data/day_2.txt").read
+        number = open("data/2022/day_2.txt").read
         # Part 1
         mappings = {
             "A" => 0, #ROck

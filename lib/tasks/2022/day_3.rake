@@ -60,7 +60,7 @@ namespace :day_3 do
             "Z" => 52,
         }
         #opening the file
-        backpack = open("data/day_3.txt").read
+        backpack = open("data/2022/day_3.txt").read
         #splitting the file at "\n"
         backpack.split("\n").each do |contents|
             #split it at ""

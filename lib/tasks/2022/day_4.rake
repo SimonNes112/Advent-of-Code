@@ -4,7 +4,7 @@ namespace :day_4 do
         #Part 1
         #setting the total to 0
         total_overlap = 0
-        File.open("data/day_4.txt").each do |line|
+        File.open("data/2022/day_4.txt").each do |line|
             tasks = line.split(",")
             #spliting the tasks at "-"
             #making the first part and the second part a integer

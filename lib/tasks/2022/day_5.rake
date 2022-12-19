@@ -5,7 +5,7 @@ namespace :day_5 do
         crates = [[], [], [], [], [], [], [], [], []]
         mapping = [1, 5, 9, 13, 17, 21, 25, 29, 33]
 
-        File.readlines('data/day_5.txt').each do |line|
+        File.readlines('data/2022/day_5.txt').each do |line|
             # Store the layout of the crates
             if line.include?('[')
                 mapping.each_with_index do |v, k|

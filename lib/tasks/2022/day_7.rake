@@ -2,7 +2,7 @@ namespace :day_7 do
     desc "day 7"
     task go: :environment do
         #Part 1
-        data = File.readlines('data/day_7.txt')
+        data = File.readlines('data/2022/day_7.txt')
         # data = File.readlines('data/day_7_test.txt')
         cwd = []
         #make a hash of the directories and their sizes
