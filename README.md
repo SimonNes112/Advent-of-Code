@@ -5,5 +5,5 @@
 ### I made this code with Ruby On Rails 
 
 #### Where you can find the code:
-    - For The Rakes Go To lib/tasks 
-    - For The Data Go To data directory.
+    - For the rakes go to lib/tasks 
+    - For the data go to data directory.
