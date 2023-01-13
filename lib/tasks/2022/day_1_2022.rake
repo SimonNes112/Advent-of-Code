@@ -1,4 +1,4 @@
-namespace :day_1 do
+namespace :day_1_2022 do
     desc "day 1"
     task go: :environment do
         #Part 1

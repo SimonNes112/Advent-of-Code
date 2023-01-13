@@ -1,4 +1,4 @@
-namespace :day_2 do
+namespace :day_2_2022 do
     desc "day_2"
     task go: :environment do 
         number = open("data/2022/day_2.txt").read
